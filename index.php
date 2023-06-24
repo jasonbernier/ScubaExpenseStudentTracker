@@ -3,10 +3,10 @@
 session_start();
 
 // Database configuration
-$servername = 'your_servername';
-$username = 'your_username';
-$password = 'your_password';
-$dbname = 'your_database_name';
+$servername = "localhost";
+$username = "";
+$password = "";
+$dbname = "";
 
 // Create a database connection
 $conn = new mysqli($servername, $username, $password, $dbname);
